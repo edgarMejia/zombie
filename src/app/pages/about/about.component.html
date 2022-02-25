@@ -1,16 +1,18 @@
 <!-- <ng-container></ng-container> -->
 
-<div class='columns is-multiline'>
-  <ng-container *ngFor="let hero of heroTeam">
-    <div class="column is-4">
-      <app-about-card
-        [name]="hero.name"
-        [username]="hero.username"
-        [description]="hero.description"
-        [hashtags]="hero.hashtags"
-        [coverPath]="hero.coverPath"
-        [avatarPath]="hero.avatarPath"
-      ></app-about-card>
-    </div>
-  </ng-container>
+<div class="container mt-5">
+  <div class='columns is-multiline'>
+    <ng-container *ngFor="let hero of heroTeam">
+      <div class="column is-4">
+        <app-about-card
+          [name]="hero.name"
+          [username]="hero.username"
+          [description]="hero.description"
+          [hashtags]="hero.hashtags"
+          [coverPath]="hero.coverPath"
+          [avatarPath]="hero.avatarPath"
+        ></app-about-card>
+      </div>
+    </ng-container>
+  </div>
 </div>
