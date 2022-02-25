@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CatalogComponent } from './catalog.component';
+import { RouterModule } from '@angular/router';
 
+import { CatalogComponent } from './catalog.component';
 
 
 @NgModule({
@@ -9,7 +10,8 @@ import { CatalogComponent } from './catalog.component';
     CatalogComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule.forChild([{path: '', component: CatalogComponent}]),
   ]
 })
 export class CatalogModule { }
