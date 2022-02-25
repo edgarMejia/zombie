@@ -12,10 +12,10 @@ export class AboutComponent implements OnInit {
     {
       name: 'Ivette Lara',
       username: '@ivette',
-      description: 'Hola! Soy Ivette!!',
-      hashtags: ['#Ivette', '#Lara'],
-      coverPath: '',
-      avatarPath: ''
+      description: 'Yo soy la Lider de Gestíón de Marketing, me encarga de crear las estraregias de ventas de nuestros productos y llevarla a la mayor cantidad de lugares posibles donde los Zombies puedan atacar, en mis tiempos libres me gusta disfrutar de la playa y sus bellos atardeceres.',
+      hashtags: ['#beachlover', '#sunset', '#ContraLosZombies'],
+      coverPath: 'assets/images/about/ivette/cover.png',
+      avatarPath: 'assets/images/about/ivette/avatar.png'
     },
     {
       name: 'David Perez',
@@ -36,18 +36,18 @@ export class AboutComponent implements OnInit {
     {
       name: 'Alexis Gonzalez',
       username: '@Alexis',
-      description: 'Hola! Soy Alexis!!',
-      hashtags: ['#Alexis', '#Gonzalez'],
-      coverPath: '',
-      avatarPath: ''
+      description: 'Brains!!!!!!!, hola zombies, mi nombre es Alexis, y me encargo del apoyo digital dentro de la compañia para la generacion de productos contra Zombies, Zombies Preparence!!!!!!!',
+      hashtags: ['#Moungtain', '#ContraLosZombies', '#Señor', '#Climber'],
+      coverPath: 'assets/images/about/alexis/cover.png',
+      avatarPath: 'assets/images/about/alexis/avatar.png'
     },
     {
       name: 'Edgar Mejía',
       username: '@edgarMmejia',
       description: 'Hola mundo! Soy Edgar, actualmente me encargo del desarrollo de la tienda en linea de Zombie Repelent, me gustan los videojuegos, los gatos y muchas cosas más que ya no recuerdo.',
       hashtags: ['#Dev', '#Music', '#Cats'],
-      coverPath: 'assets/images/cover-edgar.jpg',
-      avatarPath: 'assets/images/avatar-edgar.jpg'
+      coverPath: 'assets/images/about/edgar/cover.jpg',
+      avatarPath: 'assets/images/about/edgar/avatar.jpg'
     }
   ]
 
