@@ -13,6 +13,10 @@ export class CatalogComponent implements OnInit {
 
   public img2 = './assets/images/repelent/Repelent_Right.png';
 
+  public img3 = './assets/images/repelent/picante.png';
+
+  public img4 = './assets/images/repelent/chicle.png';
+
   constructor() { }
 
   ngOnInit(): void {

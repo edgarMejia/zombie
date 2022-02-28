@@ -14,6 +14,16 @@
           <img src="./assets/images/repelent/Sprite.jpg" loading="lazy" width="25px"/>
         </div>
       </div>
+      <div class="column">
+        <div class="item" [ngClass]="selectedImg===2 ? 'selected' : ''" (click)="current(2)">
+          <img src="./assets/images/repelent/picante.png" loading="lazy" width="25px"/>
+        </div>
+      </div>
+      <div class="column">
+        <div class="item" [ngClass]="selectedImg===3 ? 'selected' : ''" (click)="current(3)">
+          <img src="./assets/images/repelent/chicle.png" loading="lazy" width="25px"/>
+        </div>
+      </div>
     </div>
     <div class="column is-6" style="text-align: center;">
       <ng-container *ngIf="selectedImg===0">
@@ -21,6 +31,12 @@
       </ng-container>
       <ng-container *ngIf="selectedImg===1">
         <img src="./assets/images/repelent/Repelent_Right.png" loading="lazy" width="400px"/>
+      </ng-container>
+      <ng-container *ngIf="selectedImg===2">
+        <img src="./assets/images/repelent/picante.png" loading="lazy" width="400px"/>
+      </ng-container>
+      <ng-container *ngIf="selectedImg===3">
+        <img src="./assets/images/repelent/chicle.png" loading="lazy" width="400px"/>
       </ng-container>
     </div>
 
