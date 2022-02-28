@@ -20,7 +20,7 @@ export class AboutComponent implements OnInit {
     {
       name: 'David Perez',
       username: '@david',
-      description: 'Hola! Soy David!!',
+      description: 'Hola, si llegaste hasta aquí es porque tienes problemas de Zombies! No te preocupes soy David, tu ejecutivo de atención al cliente y te daré todos los consejos de como adquirir nuestro famosísimo repelente contra Zombies, ademas te enseñaré como aplicarlo para obtener los mejores resultados! Puedes usar nuestros canales digitales hoy, mañana, siempre y por los siglos de los siglos!',
       hashtags: ['#David', '#Perez'],
       coverPath: 'assets/images/about/david/cover.jpeg',
       avatarPath: 'assets/images/about/david/avatar.jpeg'
