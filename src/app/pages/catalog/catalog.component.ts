@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CatalogComponent implements OnInit {
 
+  public selectedImg = 0;
+
+  public img1 = './assets/images/repelent/Repelent_Left.png';
+
+  public img2 = './assets/images/repelent/Repelent_Right.png';
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  public current(selected:number) {
+    this.selectedImg = selected;
   }
 
 }

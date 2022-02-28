@@ -1,1 +1,136 @@
-<p>catalog works!</p>
+<div class="container">
+  <h1 class="title is-1 mb-0">Nuestros productos</h1>
+  <p>Ningún zombie fue lastimado en las pruebas de nuestros productos.</p>
+
+  <div class="columns is-multiline mt-5">
+    <div class="column is-3">
+      <div class="column">
+        <div class="item" [ngClass]="selectedImg===0 ? 'selected' : ''" (click)="current(0)">
+          <img src="./assets/images/repelent/Normal.jpg" loading="lazy" width="25px" />
+        </div>
+      </div>
+      <div class="column">
+        <div class="item" [ngClass]="selectedImg===1 ? 'selected' : ''" (click)="current(1)">
+          <img src="./assets/images/repelent/Sprite.jpg" loading="lazy" width="25px"/>
+        </div>
+      </div>
+    </div>
+    <div class="column is-6" style="text-align: center;">
+      <ng-container *ngIf="selectedImg===0">
+        <img src="./assets/images/repelent/Repelent_Left.png" loading="lazy" width="400px"/>
+      </ng-container>
+      <ng-container *ngIf="selectedImg===1">
+        <img src="./assets/images/repelent/Repelent_Right.png" loading="lazy" width="400px"/>
+      </ng-container>
+    </div>
+
+    <div class="column is-3" style="text-align: center;">
+      <div class="box">
+        <h1 class="title is-2 mb-0">
+          $ 200 <small style="color: gray;">.99</small>
+        </h1>
+        <p>39% de descuento!</p>
+  
+        <button class="button is-primary is-rounded mt-2">
+          COMPRAR YA!
+        </button>
+  
+        <br/>
+        <br/>
+        <small>(*) La garantia por fallo del producto solo cubre si el usuario sobrevive al ataque del/los zombies.</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <h2 class="subtitle">Comentarios (13,435)</h2>
+    <article class="media">
+      <figure class="media-left">
+        <p class="image is-64x64">
+          <img src="./assets/images/about/edgar/avatar.jpg">
+        </p>
+      </figure>
+      <div class="media-content">
+        <div class="content">
+          <p>
+            <strong>Edgar Mejía</strong>
+            <br>
+            El producto es simplemente impresionante, me lo apliqué para ahuyentar a los zombies que rodeaban mi casa y ahuyentar hasta los zancudos!!!
+            <br>
+            <small>👍🏻 55,464 <a>Like</a> · <a>Reply</a> · 3 hrs</small>
+          </p>
+        </div>
+    
+        <article class="media">
+          <figure class="media-left">
+            <p class="image is-48x48">
+              <img src="./assets/images/about/ivette/avatar.png">
+            </p>
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <p>
+                <strong>Ivette Lara</strong>
+                <br>
+                Normalmente no me detengo a dar comentarios a los productos que compro en linea, pero este sin duda me ha salvado la vida literalmente ... Abro hilo:
+                <br>
+                <small>👍🏻 33,762 <a>Like</a> · <a>Reply</a> · 2 hrs</small>
+              </p>
+            </div>
+
+            <article class="media">
+              Yo necesitaba salir por la cartulina para la tarea de mi hijo pero no podía por la invasión de zombies, así que hice lo que cualquier persona hubiese hecho en mi situación... Buscar en internet un producto milagroso y de precio razonable. Continua ...
+            </article>
+
+            <article class="media">
+              Así que decidí ordenar 100 unidades y una vez llegaron (a la puerta de mi casa) pude salir a hacer las compras, sin miedo de nada ni nadie! simplemente los zombies me temian!!!
+            </article>
+          </div>
+        </article>
+    
+        <article class="media">
+          <figure class="media-left">
+            <p class="image is-48x48">
+              <img src="./assets/images/about/alexis/avatar.png">
+            </p>
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <p>
+                <strong>Alexis Gonzalez</strong>
+                <br>
+                He ordenado 1,000 unidades esta mañana! estoy asioso por probar el producto.
+                <br>
+                <small>👍🏻 14,392 <a>Like</a> · <a>Reply</a> · 2 hrs</small>
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <br/>
+        <a>Ver 13,432 comentarios ocultos</a>
+      </div>
+    </article>
+
+    <article class="media">
+      <figure class="media-left">
+        <p class="image is-64x64">
+          <img src="https://bulma.io/images/placeholders/128x128.png">
+        </p>
+      </figure>
+      <div class="media-content">
+        <div class="field">
+          <p class="control">
+            <textarea class="textarea" placeholder="Agrega un comentario..."></textarea>
+          </p>
+        </div>
+        <div class="field">
+          <p class="control">
+            <button class="button">Publicar comentario</button>
+          </p>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</div>
