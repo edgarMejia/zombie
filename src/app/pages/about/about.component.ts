@@ -22,16 +22,16 @@ export class AboutComponent implements OnInit {
       username: '@david',
       description: 'Hola! Soy David!!',
       hashtags: ['#David', '#Perez'],
-      coverPath: '',
-      avatarPath: ''
+      coverPath: 'assets/images/about/david/cover.jpeg',
+      avatarPath: 'assets/images/about/david/avatar.jpeg'
     },
     {
       name: 'Javier Segura',
       username: '@Javier',
-      description: 'Hola! Soy Javier!!',
+      description: 'Bienvenidos Zoombies! \nSoy el Gefe (Gerente de la Felicidad), me encargo de mantener al equipo feliz y contento, lleno de PositiveZ para que destrocemos a los Zombies emos con nuestras carcajadas y ocurrencias. En mis tiempos libres me gusta bajar mangos a pedrada limpia y quemar zoombies en leña :).',
       hashtags: ['#Javier', '#Segura'],
-      coverPath: '',
-      avatarPath: ''
+      coverPath: 'assets/images/about/javier/cover.jpeg',
+      avatarPath: 'assets/images/about/javier/avatar.jpeg'
     },
     {
       name: 'Alexis Gonzalez',
